@@ -1,0 +1,7 @@
+file,type,produced_by,produces,depends_on,raw_outputs_location,notes
+README.md,documentation,human-authored,none,none,none,High-level repository overview.
+TextAttack.ipynb,notebook,human-authored and notebook execution,embedded notebook outputs,"textattack; transformers; torch; tensorflow; tensorflow-hub; tf-keras; nltk; Hugging Face models textattack/roberta-base-imdb unitary/toxic-bert martin-ha/toxic-comment-model",inside TextAttack.ipynb cell outputs,Only executable experiment file currently present.
+pyproject.toml,environment manifest,Codex audit on 2026-08-23,Python environment,none,none,Use with uv sync --locked; torch source points at PyTorch cu118 wheels.
+uv.lock,environment lockfile,uv lock on 2026-08-23,locked Python dependency graph,pyproject.toml,none,Commit this file and use uv sync --locked on the new instance.
+artifact_lineage.csv,artifact map,Codex audit on 2026-08-23,none,repo files,none,CSV pointer for quick inspection of file roles and dependencies.
+REPO_MAP.md,handoff documentation,Codex audit on 2026-08-23,none,repo files and notebook metadata,none,Human-readable operator map and migration notes.
